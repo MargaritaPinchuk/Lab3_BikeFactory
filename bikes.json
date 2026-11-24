@@ -1,0 +1,74 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "type": "Горный",
+      "model": "Stels Navigator 590",
+      "wheelDiameter": 26,
+      "gears": 21,
+      "weight": 14.5,
+      "releaseDate": "2023-03-15",
+      "price": 450
+    },
+    {
+      "id": 2,
+      "type": "шосс",
+      "model": "3",
+      "wheelDiameter": 28,
+      "gears": 22,
+      "weight": 5,
+      "releaseDate": "2024-06-01",
+      "price": 2300.5
+    },
+    {
+      "id": 4,
+      "type": "BMX",
+      "model": "Format 3213",
+      "wheelDiameter": 20,
+      "gears": 1,
+      "weight": 12.4,
+      "releaseDate": "2021-11-11",
+      "price": 310
+    },
+    {
+      "id": 6,
+      "type": "Детс4565кий",
+      "model": "Stern Vega",
+      "wheelDiameter": 16,
+      "gears": 1,
+      "weight": 9.5,
+      "releaseDate": "2023-08-30",
+      "price": 150
+    },
+    {
+      "id": 7,
+      "type": "горный",
+      "model": "3",
+      "wheelDiameter": 12,
+      "gears": 2,
+      "weight": 4,
+      "releaseDate": "2004-12-12",
+      "price": 345
+    },
+    {
+      "id": 8,
+      "type": "горный",
+      "model": "34",
+      "wheelDiameter": 23,
+      "gears": 3,
+      "weight": 5,
+      "releaseDate": "2024-03-12",
+      "price": 4
+    },
+    {
+      "id": 9,
+      "type": "2",
+      "model": "2",
+      "wheelDiameter": 23,
+      "gears": 3,
+      "weight": 23,
+      "releaseDate": "2020-12-12",
+      "price": 345
+    }
+  ]
+}

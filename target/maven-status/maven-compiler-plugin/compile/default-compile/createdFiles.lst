@@ -1,0 +1,16 @@
+bikefactory\io\xml\XmlFileWriter.class
+bikefactory\io\xml\DomXmlReader$StrictErrorHandler.class
+bikefactory\io\xml\XmlValidator$CollectingErrorHandler.class
+bikefactory\io\xml\SaxXmlReader.class
+bikefactory\io\xml\StaxXmlReader.class
+bikefactory\io\json\JsonParser.class
+bikefactory\io\xml\XmlValidator.class
+bikefactory\io\json\JsonFileReader.class
+bikefactory\io\xml\DomXmlReader.class
+bikefactory\io\json\JsonParseException.class
+bikefactory\io\xml\AbstractXmlReader.class
+bikefactory\io\xml\SaxXmlReader$BikeSaxHandler.class
+bikefactory\util\BicycleBuilder.class
+bikefactory\io\xml\XmlParserType.class
+bikefactory\service\BikeManager$1.class
+bikefactory\io\json\JsonFileWriter.class

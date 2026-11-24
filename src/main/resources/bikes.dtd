@@ -1,0 +1,13 @@
+
+<!ELEMENT bikes (bike*)>
+
+<!ELEMENT bike (type, model, wheelDiameter, gears, weight, releaseDate, price)>
+<!ATTLIST bike id CDATA #REQUIRED>
+
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT wheelDiameter (#PCDATA)>
+<!ELEMENT gears (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT releaseDate (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

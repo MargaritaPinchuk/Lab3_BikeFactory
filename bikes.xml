@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bikes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/main/resources/bikes.xsd">
+    <bike id="1">
+        <type>Горный</type>
+        <model>Stels Navigator 590</model>
+        <wheelDiameter>26</wheelDiameter>
+        <gears>21</gears>
+        <weight>14.5</weight>
+        <releaseDate>2023-03-15</releaseDate>
+        <price>450</price>
+    </bike>
+    <bike id="2">
+        <type>шосс</type>
+        <model>3</model>
+        <wheelDiameter>28</wheelDiameter>
+        <gears>22</gears>
+        <weight>5</weight>
+        <releaseDate>2024-06-01</releaseDate>
+        <price>2300.5</price>
+    </bike>
+    <bike id="4">
+        <type>BMX</type>
+        <model>Format 3213</model>
+        <wheelDiameter>20</wheelDiameter>
+        <gears>1</gears>
+        <weight>12.4</weight>
+        <releaseDate>2021-11-11</releaseDate>
+        <price>310</price>
+    </bike>
+    <bike id="6">
+        <type>Детс4565кий</type>
+        <model>Stern Vega</model>
+        <wheelDiameter>16</wheelDiameter>
+        <gears>1</gears>
+        <weight>9.5</weight>
+        <releaseDate>2023-08-30</releaseDate>
+        <price>150</price>
+    </bike>
+    <bike id="7">
+        <type>горный</type>
+        <model>3</model>
+        <wheelDiameter>12</wheelDiameter>
+        <gears>2</gears>
+        <weight>4</weight>
+        <releaseDate>2004-12-12</releaseDate>
+        <price>345</price>
+    </bike>
+    <bike id="8">
+        <type>горный</type>
+        <model>34</model>
+        <wheelDiameter>23</wheelDiameter>
+        <gears>3</gears>
+        <weight>5</weight>
+        <releaseDate>2024-03-12</releaseDate>
+        <price>4</price>
+    </bike>
+    <bike id="9">
+        <type>2</type>
+        <model>2</model>
+        <wheelDiameter>23</wheelDiameter>
+        <gears>3</gears>
+        <weight>23</weight>
+        <releaseDate>2020-12-12</releaseDate>
+        <price>345</price>
+    </bike>
+</bikes>

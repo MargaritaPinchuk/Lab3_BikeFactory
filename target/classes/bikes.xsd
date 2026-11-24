@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="Id">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxInclusive value="999999"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Text">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="60"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="WheelDiameter">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="12"/>
+            <xs:maxInclusive value="29"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Gears">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="36"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Weight">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="3"/>
+            <xs:maxInclusive value="40"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Price">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="100000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ReleaseDate">
+        <xs:restriction base="xs:date">
+            <xs:minInclusive value="1990-01-01"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Bike">
+        <xs:sequence>
+            <xs:element name="type" type="Text"/>
+            <xs:element name="model" type="Text"/>
+            <xs:element name="wheelDiameter" type="WheelDiameter"/>
+            <xs:element name="gears" type="Gears"/>
+            <xs:element name="weight" type="Weight"/>
+            <xs:element name="releaseDate" type="ReleaseDate"/>
+            <xs:element name="price" type="Price"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="Id" use="required"/>
+    </xs:complexType>
+
+    <!-- на случай файла из одного объекта -->
+    <xs:element name="bike" type="Bike"/>
+
+    <xs:element name="bikes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bike" type="Bike" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
